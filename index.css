@@ -1,0 +1,90 @@
+#main-container{
+     
+       width: 470px;
+       height: 470px;
+       border: 2px solid transparent;
+       margin-left: 35%;
+       margin-top: 6%;
+       background-color: rgb(196, 201, 224);
+       border-radius: 8px;
+}
+
+#heading{
+      
+      width: 440px;
+      height:60px;
+      margin-left:15px;
+      background-color: black;
+      margin-top: -10px;
+      color: white;
+      font-family: sans-serif;
+}
+
+h1{
+  
+        font-size: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        font-weight: bolder;
+}
+
+.disply{
+       
+       width: 440px;
+       height: 100px;
+       margin-left:15px;
+       margin-top: 10px;
+       background-color: white;
+       border-radius: 8px;
+       font-size: 60px;
+       text-align:right;   /* Align text to the right */
+       overflow: hidden;   /* Hide overflowing text */
+       white-space: nowrap;  /* Prevent line breaks in the text */
+}
+
+#text{
+        
+       /* margin-left: 400px; */
+       padding-top: 20px;
+       
+}
+
+#verticle-list{
+       
+       width: 400px;
+       height:260px;
+       margin-left: 15px;
+       /* border: 2px solid red; */
+       /* background-color: aliceblue; */
+}
+
+#horizotal-list{
+
+      display: flex;
+      margin-left:-80px;
+}
+
+.button{
+      
+       height: 45px;
+       margin-left: 2px;
+       margin-top: 2px;
+       width: 105px;
+       border: 2px solid transparent ;
+       background-color: rgb(112, 113, 113);
+       font-size: 40px;
+       color: white;
+       text-align: center;
+}
+
+.button:hover{
+        
+        background-color: orangered;
+}
+
+li{
+      list-style: none;
+}
+
